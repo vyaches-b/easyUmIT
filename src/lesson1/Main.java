@@ -8,12 +8,15 @@ public class Main {
 
         double result = 0;
 
-        if (a == 0)
+        if (a == 0) {
             System.out.println("Деление на ноль недопустимо");
-        else
+        }
+        else {
             result = (double) (b + c) / a;
+            System.out.println("Полученный результат: " + result);
+        }
 
-        System.out.println("Полученный результат: " + result);
+
 
     }
 }
