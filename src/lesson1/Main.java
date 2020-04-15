@@ -12,6 +12,7 @@ public class Main {
             System.out.println("Деление на ноль недопустимо");
         else
             result = (double) (b + c) / a;
+
         System.out.println("Полученный результат: " + result);
 
     }
