@@ -7,22 +7,17 @@ public class Cinema {
         int rate = 5;
 
         //Вариант с if else
-        if (rate == 1){
+        if (rate == 1) {
             System.out.println(Rate.ONE.getMessage());
-        }
-        else if(rate == 2){
+        } else if (rate == 2) {
             System.out.println(Rate.TWO.getMessage());
-        }
-        else if(rate == 3){
+        } else if (rate == 3) {
             System.out.println(Rate.THREE.getMessage());
-        }
-        else if(rate == 4){
+        } else if (rate == 4) {
             System.out.println(Rate.FOUR.getMessage());
-        }
-        else if(rate == 5){
+        } else if (rate == 5) {
             System.out.println(Rate.FIVE.getMessage());
-        }
-        else{
+        } else {
             System.out.println(Rate.UNKNOWN.getMessage());
         }
 
